@@ -1,0 +1,26 @@
+/* src/components/Navigation.css */
+nav {
+    background-color: #007bff; /* Yorqin ko'k rang */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #0056b3; /* Qoraygan ko'k rang (hover effekti) */
+    color: #f0f0f0; /* Yorqinroq rang (hover effekti) */
+  }
+  
